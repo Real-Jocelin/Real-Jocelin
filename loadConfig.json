@@ -1,21 +1,22 @@
-{
-  "status": 0,
-  "data": {
-    "logo": "img/logo.png",
-    "background": "img/bg.jpg",
-    "title": "SmartNet WiFi Portal",
-    "htmlContent": "",
-    "authMethod": "account",
-    "showRegister": false,
-    "showForgetPassword": false,
-    "companyName": "SmartNet",
-    "companyUrl": "https://www.example.com",
-    "copyright": "© 2024 SmartNet",
-    "version": "1.0.0",
-    "supportContact": "+64363635",
-    "extraParams": {
-      "packages": "enabled",
-      "whatsapp": "64363635"
-    }
+loadConfig({
+  "post_url": "https://www.ruijienetworks.com",
+  "oneclick": {
+    "oneclick_validity": "0",
+    "oneclick_qos": {
+      "up_rate": "0",
+      "down_rate": "0"
+    },
+    "oneclick_times": "0"
+  },
+  "custom_html": {
+    "login_options": [
+      "voucher",
+      "fixaccount",
+      "pass"
+    ],
+    "lang": [
+      "en_US",
+      "es_ES"
+    ]
   }
-}
+});
