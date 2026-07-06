@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartNet WiFi Portal</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div class="glass-panel">
+    <h1 class="main-title"><span>SmartNet</span> Portal</h1>
+    <div class="subtitle">WiFi Network</div>
+    <div class="badge">WiFi Packages</div>
+    <div class="grid-layout">
+        <div class="card-item blue">1000Fbu | 24hrs</div>
+        <div class="card-item blue">500Fbu | 12hrs</div>
+        <div class="card-item gold">5.000Fbu | 7 Days</div>
+        <div class="card-item gold">20.000Fbu | Month</div>
+    </div>
+    <form action="/login" method="POST">
+        <div class="auth-box">
+            <div class="input-wrapper">
+                <label for="username">Username / Voucher</label>
+                <input type="text" id="username" name="username" placeholder="Enter registration code" required autocomplete="off">
+            </div>
+            <div class="input-wrapper">
+                <label for="password">Password (If required)</label>
+                <input type="password" id="password" name="password" placeholder="••••••••">
+            </div>
+            <button type="submit" class="action-btn">Connect to Internet</button>
+        </div>
+    </form>
+    <div class="footer-text">SmartNet WiFi</div>
+    <a href="https://wa.me/64363635" class="whatsapp-badge" target="_blank">🟢 WhatsApp: 64363635</a>
+</div>
+<script src="js/portal.js"></script>
+</body>
+</html>
