@@ -1,66 +1,21 @@
 {
-  "portalName": "SmartNet WiFi Portal",
-  "portalVersion": "1.0",
-  "companyName": "SmartNet",
-  "logoUrl": "",
-  "backgroundUrl": "",
-  "customCss": "",
-  "customJs": "",
-  "authenticationMethod": "voucher",
-  "redirectUrl": "http://www.baidu.com",
-  "logoutUrl": "",
-  "termsOfService": "",
-  "privacyPolicy": "",
-  "supportEmail": "",
-  "supportPhone": "64363635",
-  "whatsappContact": "64363635",
-  "language": "en",
-  "theme": {
-    "primaryColor": "#0076fe",
-    "secondaryColor": "#0056b3",
-    "accentColor": "#f0c965",
-    "textColor": "#ffffff",
-    "backgroundColor": "#060e1a"
-  },
-  "packages": [
-    {
-      "id": 1,
-      "name": "12 Hours Package",
-      "price": "500",
-      "currency": "Fbu",
-      "duration": "12",
-      "durationUnit": "hours"
-    },
-    {
-      "id": 2,
-      "name": "24 Hours Package",
-      "price": "1000",
-      "currency": "Fbu",
-      "duration": "24",
-      "durationUnit": "hours"
-    },
-    {
-      "id": 3,
-      "name": "7 Days Package",
-      "price": "5000",
-      "currency": "Fbu",
-      "duration": "7",
-      "durationUnit": "days"
-    },
-    {
-      "id": 4,
-      "name": "Monthly Package",
-      "price": "20000",
-      "currency": "Fbu",
-      "duration": "1",
-      "durationUnit": "month"
+  "status": 0,
+  "data": {
+    "logo": "img/logo.png",
+    "background": "img/bg.jpg",
+    "title": "SmartNet WiFi Portal",
+    "htmlContent": "",
+    "authMethod": "account",
+    "showRegister": false,
+    "showForgetPassword": false,
+    "companyName": "SmartNet",
+    "companyUrl": "https://www.example.com",
+    "copyright": "© 2024 SmartNet",
+    "version": "1.0.0",
+    "supportContact": "+64363635",
+    "extraParams": {
+      "packages": "enabled",
+      "whatsapp": "64363635"
     }
-  ],
-  "features": {
-    "showPackages": true,
-    "enableVoucherAuth": true,
-    "enableSocialLogin": false,
-    "enableWhatsappSupport": true,
-    "enableTermsAcceptance": false
   }
 }
